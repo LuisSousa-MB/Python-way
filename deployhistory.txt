@@ -1,0 +1,33 @@
+## Pré-Deploy
+
+- [x] Merge PR https://github.com/mercadobitcoin/caronte-admin/pull/18
+- [x] Create release tag `0.1.0`
+- [x] Criar permissoes no banco de dados do caronte-admin (SN)
+- [x] Criar tabelas no banco de dados do caronte (SN)
+
+## Deploy
+- [x] Deploy caronte-admin `0.1.0`
+  - [x] Validar grupos
+  - [x] Validar usuarios
+  - [x] Validar rates
+  - [x] Validar versoes
+  - [x] Validar upload do csv de usuarios
+  - [x] Validar upload do csv de rates
+  - [x] Acompanhamento de possiveis erros d
+- [ ] Deploy caronte `1.4.0`
+  - [ ] Acompanhamento de possiveis erros do deploy
+  
+## Rollback
+- [ ] Deploy caronte-admin `0.0.7`
+  - [ ] Acompanhamento de possiveis erros do deploy
+Vitor Capuano17:56
+- [ ] Deploy caronte `1.4.0`
+   - [ ] Validar transacao default
+   - [ ] Validar transacao whitelist
+   - [ ] Acompanhamento de possiveis erros do deploy
+  
+## Rollback
+- [ ] Deploy caronte-admin `0.0.7`
+  - [ ] Acompanhamento de possiveis erros do deploy
+- [ ] Deploy caronte `1.3.4`
+  - [ ] Acompanhamento de possiveis erros do deploy

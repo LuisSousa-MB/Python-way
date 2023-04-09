@@ -1,0 +1,25 @@
+Rodar testes:
+    pytest -v / Verbose mode
+
+Rodar Marked's tests:
+
+    pytest -v -m mark_name // -m ou -k
+
+Gerar relatorio de testes em XML:
+
+    pytest --junitxml report.xml   
+
+Reportar cobertura de testes:
+
+    pytest --cov=diretorioA diretorioB/Subdiretorio --cov-report term-missing // Reporta as linha não cobertas.
+
+
+Reportar cobertura em html:
+
+    pytest --cov=diretorioA diretorioB/Subdiretorio --cov-report html // Reporta as linha não coberta em um arquivo html mais detalhado.
+
+Reportar cobertura em xml:
+
+    pytest --cov=diretorioA diretorioB/Subdiretorio --cov-report xml
+
+.coveragerc // arquivo que gerencia a analise de cobertura dos testes

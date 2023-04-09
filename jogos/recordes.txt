@@ -1,4 +1,0 @@
-Paps : 500
-Henrique : 200
-Paps : 450
-sophit : 100

@@ -1,0 +1,6 @@
+criar env -->>
+    python3 -m venv namedavenv
+
+iniciar venv --->
+
+    source namedavenv/bin/activate
